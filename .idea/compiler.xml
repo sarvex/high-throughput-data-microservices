@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring-web-rabbit-stream-producer" />
+        <module name="spring-batch-csv-to-apache-kafka" />
+        <module name="spring-batch-cvs-to-postgres" />
+        <module name="transaction-services" />
+        <module name="spring-batch-cvs-to-mysql" />
+        <module name="throughput-domain" />
+        <module name="spring-batch-csv-to-rabbit-stream" />
+      </profile>
+      <profile name="Annotation profile for microservices-high-throughput-parent" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.24/lombok-1.18.24.jar" />
+        </processorPath>
+        <module name="spring-cloud-stream-rabbit-jdbc-consumer" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="spring-batch-csv-to-apache-kafka" options="-parameters" />
+      <module name="spring-batch-csv-to-rabbit-stream" options="-parameters" />
+      <module name="spring-batch-cvs-to-mysql" options="-parameters" />
+      <module name="spring-batch-cvs-to-postgres" options="-parameters" />
+      <module name="spring-cloud-stream-rabbit-jdbc-consumer" options="-parameters" />
+      <module name="spring-web-rabbit-stream-producer" options="-parameters" />
+      <module name="transaction-services" options="-parameters" />
+    </option>
+  </component>
+</project>

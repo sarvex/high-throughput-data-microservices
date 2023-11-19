@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/applications/batching/spring-batch-csv-to-apache-kafka/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/applications/batching/spring-batch-csv-to-rabbit-stream/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/applications/batching/spring-batch-cvs-to-mysql/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/applications/batching/spring-batch-cvs-to-postgres/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/applications/realtime/spring-cloud-stream-rabbit-jdbc-consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/applications/realtime/spring-web-rabbit-stream-producer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/components/transaction-services/src/main/java" charset="UTF-8" />
+  </component>
+</project>
